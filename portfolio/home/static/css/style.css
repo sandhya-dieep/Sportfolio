@@ -1,0 +1,119 @@
+/* General Reset */
+body {
+  
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+
+.navbar a {
+  color: white !important;
+  font-size: 20px;
+  font-weight: 400;
+}
+.hero {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 5rem;
+  font-weight: bold;
+}
+#about,#contact,#skills{
+  color:  #174777;
+}
+.btn-dwn {
+  background-color: #2a0a3f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.btn-dwn:hover {
+  background-color: #1d428a;
+  color: #fff;
+}
+
+.bg-edu {
+  background-color: #174777;
+}
+.bg-pro {
+  background-color: #3f0f29 !important;
+}
+
+.bg-progress {
+  background-color: #1d428a;
+}
+
+.skill-box {
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.skill-box:hover {
+  transform: translateY(-8px);
+  background-color: #212529;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+
+.skill-box img {
+  transition: transform 0.3s ease;
+}
+
+.skill-box:hover img {
+  transform: scale(1.1);
+}
+
+.project-card {
+  background: #1c1c1c;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+}
+.project-card img {
+  height: 200px;
+  object-fit: cover;
+}
+.project-card .card-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+.project-card .card-text {
+  font-size: 1rem;
+}
+
+.btn-custom {
+  background-color: #2a0a3f;
+  color: #fff;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #1d428a;
+  color: #fff;
+}
+
+.footer-custom {
+  background-color: #0a1a3f;
+}
+
+
+
